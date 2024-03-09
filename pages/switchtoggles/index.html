@@ -61,11 +61,11 @@
               </li>
               <li>
                 <i class="bx bx-check"></i>
-                <a href="./"> Headings </a>
+                <a href="../headings/"> Headings </a>
               </li>
               <li>
                 <i class="bx bx-check"></i>
-                <a href="../switchtoggles/"> Switch Checkbox </a>
+                <a href="./"> Switch Checkbox </a>
               </li>
               <li>
                 <i class="bx bx-check"></i>
@@ -74,31 +74,68 @@
             </ul>
           </div>
           <div class="context">
-            <h1>HEADINGS</h1>
+            <h1>Switch Checkbox</h1>
 
             <div class="flexw">
-              <h1>H1 heading <span class="badge text-bg-secondary"></span></h1>
-              <h2>H2 heading <span class="badge text-bg-secondary"></span></h2>
-              <h3>H3 heading <span class="badge text-bg-secondary"></span></h3>
-              <h4>H4 heading <span class="badge text-bg-secondary"></span></h4>
-              <h5>H5 heading <span class="badge text-bg-secondary"></span></h5>
-              <h6>H6 heading <span class="badge text-bg-secondary"></span></h6>
+              <label class="defualtswitch">
+                <input type="checkbox" />
+                <span class="slider"></span>
+              </label>
+              <br />
+              <p>Default switch checkbox input</p>
+              <br />
+
+              <label class="checkedswitch">
+                <input type="checkbox" checked />
+                <span class="slider"></span>
+              </label>
+              <br />
+              <p>Checked switch checkbox input</p>
+              <br />
+
+              <label class="disabledswitch">
+                <input type="checkbox" disabled />
+                <span class="slider"></span>
+              </label>
+              <br />
+              <p>Disabled switch checkbox input</p>
+              <br />
+
+              <label class="disabledchswitch">
+                <input type="checkbox" checked disabled />
+                <span class="slider"></span>
+              </label>
+              <br />
+              <p>Disabled checked switch checkbox input</p>
+              <br />
             </div>
 
             <div class="wrapper bg-dark text-white rounded-4 my-8">
-              <pre><code>
-         &lt;h1&gt;H1 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h1&gt;
+              <pre>
+                    <code>
+                        
+            &lt;label class="defualtswitch"&gt;
+            &lt;input type="checkbox"&gt;
+            &lt;span class="slider"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+                    
+            &lt;label class="checkedswitch"&gt;
+            &lt;input type="checkbox" checked&gt;
+             &lt;span class="slider"&gt;&lt;/span&gt;
+             &lt;/label&gt;
+                    
+            &lt;label class="disabledswitch"&gt;
+            &lt;input type="checkbox" disabled&gt;
+            &lt;span class="slider"&gt;&lt;/span&gt;
+            &lt;/label&gt;
+                    
+            &lt;label class="disabledchswitch"&gt;
+            &lt;input type="checkbox" checked disabled&gt;
+            &lt;span class="slider"&gt;&lt;/span&gt;
+            &lt;/label&gt;
 
-        &lt;h2&gt;H2 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h2&gt;
-
-        &lt;h3&gt;H3 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h3&gt;
-
-         &lt;h4&gt;H4 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h4&gt;
-
-        &lt;h5&gt;H5 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h5&gt;
-
-        &lt;h6&gt;H6 heading &lt;span class="badge text-bg-secondary"&gt;&lt;/span&gt;&lt;/h6&gt;
-                </code></pre>
+                    </code>
+                </pre>
             </div>
           </div>
         </div>

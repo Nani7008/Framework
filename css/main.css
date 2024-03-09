@@ -1032,6 +1032,248 @@ body {
   opacity: 0.3;
 }
 
+.defualtswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.defualtswitch input {
+  display: none;
+}
+.defualtswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.defualtswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.defualtswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.defualtswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.checkedswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.checkedswitch input {
+  display: none;
+}
+.checkedswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.checkedswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.checkedswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.checkedswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.disabledswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.disabledswitch input {
+  display: none;
+}
+.disabledswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.disabledswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.disabledswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.disabledswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.checkedswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.checkedswitch input {
+  display: none;
+}
+.checkedswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.checkedswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.checkedswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.checkedswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.checkedswitch input:disabled + .slider {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.disabledswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.disabledswitch input {
+  display: none;
+}
+.disabledswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.disabledswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.disabledswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.disabledswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.disabledchswitch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.disabledchswitch input {
+  display: none;
+}
+.disabledchswitch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  transition: 0.4s;
+}
+.disabledchswitch .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.disabledchswitch input:checked + .slider {
+  background-color: #007bff;
+}
+.disabledchswitch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.disabledchswitch input:disabled + .slider {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.disabledchswitch input:disabled:checked + .slider {
+  background-color: #007bff;
+}
+.disabledchswitch input:disabled:checked + .slider:before {
+  transform: translateX(26px);
+}
+
 #buttonspage .wrapper {
   display: flex;
   flex-direction: row;
