@@ -753,7 +753,7 @@ body {
 }
 
 .side__bar {
-  width: 140px;
+  min-width: 160px;
   height: 250px;
   background-color: rgb(211, 207, 207);
   display: flex;
@@ -946,6 +946,90 @@ body {
 
 .switch input:checked + .slider:before {
   transform: translateX(1.5em);
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.6;
+  margin-bottom: 15px;
+  cursor: pointer;
+  display: block;
+  max-width: 1000px;
+}
+
+/* alert-primary */
+.alert-primary {
+  background-color: #D2E1FC;
+}
+
+.alert-primary:hover, .alert-primary:active {
+  color: #f44336;
+}
+
+/* alert-secondary" */
+.alert-secondary {
+  background-color: #E2E3E5;
+}
+
+.alert-secondary:hover, .alert-secondary:active {
+  font-size: 180%;
+}
+
+/* alert-success */
+.alert-success {
+  background-color: #D5E6DE;
+}
+
+.alert-success:hover, .alert-success:active {
+  background: #f44336;
+}
+
+/* alert-danger */
+.alert-danger {
+  background-color: #F2D8DA;
+}
+
+.alert-danger:hover, .alert-danger:active {
+  font-family: monospace;
+}
+
+/* alert-warning */
+.alert-warning {
+  background-color: #FDF3D1;
+}
+
+.alert-warning:hover, .alert-warning:active {
+  text-decoration: line-through;
+}
+
+/* alert-info */
+.alert-info {
+  background-color: #D6F3FB;
+}
+
+.alert-info:hover, .alert-info:active {
+  text-transform: uppercase;
+}
+
+/* alert-light */
+.alert-light {
+  background-color: #FCFCFD;
+}
+
+.alert-light:hover, .alert-light:active {
+  text-decoration: underline;
+}
+
+/* alert-dark */
+.alert-dark {
+  background-color: #CFD4D9;
+}
+
+.alert-dark:hover {
+  opacity: 0.3;
 }
 
 #buttonspage .wrapper {
