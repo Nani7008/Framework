@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FRAMEWORK</title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../../public/favicon/favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="../../css/main.min.css" />
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="flex justify-between item-center">
+          <a href="#"
+            ><img
+              src="../../public/favicon/favicon_io/favicon-32x32.png"
+              alt="icon"
+          /></a>
+
+          <ul class="flex gap-x-16">
+            <label for="search">
+              <input
+                type="search"
+                placeholder="Type to search"
+                id="search"
+                class="input"
+              />
+            </label>
+          </ul>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+    <section id="buttonspage">
+      <div class="container p">
+        <div class="wrapper">
+          <div class="side__bar">
+            <h4>Framework</h4>
+            <ul>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../../"> Buttons </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../inputs/"> Inputs </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../alerts/"> Alerts </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../headings/"> Headings </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="./"> Switch Checkbox </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="./"> Cards </a>
+              </li>
+            </ul>
+          </div>
+          <div class="context">
+            <h1>Cards</h1>
+
+            <div class="grid">
+              <div class="basiccard">
+                <img
+                  src="https://picsum.photos/id/230/200/200"
+                  alt="Image"
+                  class="basiccard-image"
+                />
+                <div class="basiccard-content">
+                  <h2>Title</h2>
+                  <p>This is basic card example</p>
+                  <a href="#" class="button">Learn More</a>
+                </div>
+              </div>
+
+              <div class="imageoverlaycard">
+                <div class="imageoverlaycard-image">
+                  <img src="https://picsum.photos/id/277/200/200" alt="Image" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="imageoverlaycard-content">
+                  <h2>Title</h2>
+                  <p>Image overlay example</p>
+                  <a href="#" class="button">Read More</a>
+                </div>
+              </div>
+
+              <div class="card-horizontal">
+                <div class="card-horizontal-image">
+                  <img src="https://picsum.photos/id/777/200/200" alt="Image" />
+                </div>
+                <div class="card-horizontal-content">
+                  <h2>Title</h2>
+                  <p>Horizontal card</p>
+                  <a href="#" class="button">Read More</a>
+                </div>
+              </div>
+
+              <div class="header-card">
+                <div class="header-card-content">
+                  <h2>Title</h2>
+                  <p>HEADER CARD EXAMPLE</p>
+                  <a href="#" class="button">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="wrapper bg-dark text-white rounded-4 my-2">
+              <pre>
+                    <code>
+                        
+            &lt;div class="basiccard"&gt;
+            &lt;img
+            rc="https://picsum.photos/id/230/200/200"
+            alt="Image"
+            class="basiccard-image"
+            /&gt;
+            &lt;div class="basiccard-content"&gt;
+            &lt;h2&gt;Title&lt;/h2&gt;
+            &lt;p&gt;This is basic card example&lt;/p&gt;
+            &lt;a href="#" class="button"&gt;Learn More&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+                   
+            &lt;div class="imageoverlaycard"&gt;
+            &lt;div class="imageoverlaycard-image"&gt;
+            &lt;img src="https://picsum.photos/id/277/200/200" alt="Image" /&gt;
+            &lt;div class="overlay"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="imageoverlaycard-content"&gt;
+            &lt;h2&gt;Title&lt;/h2&gt;
+            &lt;p&gt;Image overlay example&lt;/p&gt;
+            &lt;a href="#" class="button"&gt;Read More&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+                    
+            &lt;div class="card-horizontal"&gt;
+            &lt;div class="card-horizontal-image"&gt;
+            &lt;img src="https://picsum.photos/id/777/200/200" alt="Image" /&gt;
+            &lt;/div&gt;
+            &lt;div class="card-horizontal-content"&gt;
+            &lt;h2&gt;Title&lt;/h2&gt;
+            &lt;p&gt;Horizontal card&lt;/p&gt;
+            &lt;a href="#" class="button"&gt;Read More&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class="header-card"&gt;
+            &lt;div class="header-card-content"&gt;
+            &lt;h2&gt;Title&lt;/h2&gt;
+            &lt;p&gt;HEADER CARD EXAMPLE&lt;/p&gt;
+            &lt;a href="#" class="button"&gt;Read More&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+
+                    </code>
+                </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
