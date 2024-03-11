@@ -756,6 +756,17 @@ body {
   margin: 22px 0;
 }
 
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 500px;
+}
+
 .side__bar {
   min-width: 160px;
   height: 250px;
