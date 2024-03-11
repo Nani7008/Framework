@@ -3,6 +3,39 @@
         display: flex;
         flex-direction: row;
         gap: 240px;
+
+        h4 {
+         
+            margin-bottom: 20px;
+          }
+    
+          p {
+            background-color: #d6f3fb;
+            margin-top: 20px;
+          }
+        
         
     }
+
+    .wrapper__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 400px;
+    
+        h4 {
+          text-align: left;
+          margin-top: 20px;
+        }
+    
+        p {
+          margin-top: 20px;
+        }
+    
+       
+      }
+
+      .buttons {
+        margin-top: 20px;
+      }
 }

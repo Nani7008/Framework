@@ -344,6 +344,13 @@ body {
   padding: 70px;
 }
 
+* {
+  font-family: sans-serif;
+}
+* span {
+  color: red;
+}
+
 .bg-primary {
   background: #22577A;
 }
@@ -760,6 +767,8 @@ header {
   height: 60px;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 header nav {
   display: flex;
@@ -860,6 +869,19 @@ header nav {
 .btn-dark {
   background: #000000;
   color: #fff;
+}
+
+.btn-large {
+  background-color: #316CF4;
+  color: #fff;
+  width: 150px;
+}
+
+.btn-small {
+  background-color: #6E757C;
+  color: #ffffff;
+  height: 31px;
+  padding: 2px;
 }
 
 .input {
@@ -1451,4 +1473,27 @@ header nav {
   display: flex;
   flex-direction: row;
   gap: 240px;
+}
+#buttonspage .wrapper h4 {
+  margin-bottom: 20px;
+}
+#buttonspage .wrapper p {
+  background-color: #d6f3fb;
+  margin-top: 20px;
+}
+#buttonspage .wrapper__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 400px;
+}
+#buttonspage .wrapper__bottom h4 {
+  text-align: left;
+  margin-top: 20px;
+}
+#buttonspage .wrapper__bottom p {
+  margin-top: 20px;
+}
+#buttonspage .buttons {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

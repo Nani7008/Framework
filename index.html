@@ -45,7 +45,7 @@
       <div class="container p">
         <div class="wrapper">
           <div class="side__bar">
-            <h4>Framework</h4>
+            <h4>Components</h4>
             <ul>
               <li>
                 <i class="bx bx-check"></i>
@@ -59,10 +59,7 @@
                 <i class="bx bx-check"></i>
                 <a href="./pages/alerts/"> Alerts </a>
               </li>
-              <li>
-                <i class="bx bx-check"></i>
-                <a href="./pages/headings/"> Headings </a>
-              </li>
+             
               <li>
                 <i class="bx bx-check"></i>
                 <a href="./pages/switchtoggles/"> Switch Checkbox </a>
@@ -71,13 +68,21 @@
                 <i class="bx bx-check"></i>
                 <a href="./pages/cards/"> Cards </a>
               </li>
+              <li>
+                <h4>Utilities</h4>
+                <i class="bx bx-check"></i>
+                <a href="./pages/headings/"> Headings </a>
+              </li>
+
+
             </ul>
           </div>
           <div class="context">
             <h1>Buttons</h1>
             <h4>
-              Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with <br>
-               support for multiple sizes, states, and more.
+              Use Bootstrap’s custom button styles for actions in forms,
+              dialogs, and more with <br />
+              support for multiple sizes, states, and more.
             </h4>
             <button class="btn outlined">Outlined</button>
             <button class="btn btn-primary">Primary</button>
@@ -87,6 +92,12 @@
             <button class="btn btn-warning">Warning</button>
             <button class="btn btn-info">Info</button>
             <button class="btn btn-dark">Dark</button>
+
+            <p>
+              Some of the button styles use a relatively light foreground color,
+              and should only be used on a dark <br />
+              background in order to have sufficient contrast.
+            </p>
 
             <div class="wrapper bg-dark text-white rounded-4 my-8">
               <pre>
@@ -106,6 +117,37 @@
           </pre>
             </div>
           </div>
+        </div>
+        <div class="wrapper__bottom">
+          <h4>Sizes</h4>
+          <p>
+            Fancy larger or smaller buttons? Add <span>.btn-lg</span> or
+            <span>.btn-sm </span>for additional sizes.
+          </p>
+          <div class="buttons">
+            <button type="button" 
+            class="btn btn-large">
+              Large button
+            </button>
+            <button type="button" 
+            class="btn btn-small">
+            Small button
+          </button>
+          </div>
+          <div class="wrapper bg-dark text-white rounded-4 my-8">
+            <pre><code>
+      &lt;div class="buttons"&gt;
+      &lt;button type="button" class="btn btn-large"&gt;
+      Large button
+      &lt;/button&gt;
+
+
+      &lt;button type="button" class="btn 
+      btn-small"&gt;
+      Small button
+      &lt;/button&gt;
+      &lt;/div&gt;
+              </code></pre>
         </div>
       </div>
     </section>
