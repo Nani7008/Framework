@@ -344,6 +344,17 @@ body {
   padding: 70px;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 240px;
+  align-items: start;
+}
+
+.context {
+  margin-top: 30px;
+}
+
 * {
   font-family: sans-serif;
 }
@@ -1495,5 +1506,17 @@ header nav {
   margin-top: 20px;
 }
 #buttonspage .buttons {
+  margin-top: 20px;
+}
+
+#background .wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 240px;
+}
+#background .wrapper .background_colors {
+  margin-top: 20px;
+}
+#background .wrapper .opacity_ex {
   margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

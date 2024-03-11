@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FRAMEWORK</title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="../../public/favicon/favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="../../css/main.min.css" />
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="flex justify-between item-center">
+          <a href="#"
+            ><img
+              src="../../public/favicon/favicon_io/favicon-32x32.png"
+              alt="icon"
+          /></a>
+
+          <ul class="flex gap-x-16">
+            <label for="search">
+              <input
+                type="search"
+                placeholder="Type to search"
+                id="search"
+                class="input"
+              />
+            </label>
+          </ul>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+    <section id="zindexpage">
+      <div class="container p">
+        <div class="wrapper">
+          <div class="side__bar">
+            <h4>Components</h4>
+            <ul>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../../"> Buttons </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/inputs/"> Inputs </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/alerts/"> Alerts </a>
+              </li>
+
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/switchtoggles/"> Switch Checkbox </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/cards/"> Cards </a>
+              </li>
+
+              <h4>Utilities</h4>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/headings/"> Headings </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../pages/background_color/">Background color</a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../z-index/">Z index</a>
+              </li>
+            </ul>
+          </div>
+          <div class="context">
+          <h4>
+            Z-index
+          </h4>
+          <p>
+            We call these “low-level” z-index utilities because of their default values of -1 through 3, which we use for the <br>
+             layout of overlapping components. High-level z-index values are used for overlay components like modals and <br>
+              tooltips.
+          </p>
+          <img src="../../assets/images/z-index.png" alt="z-index">
+          <div class="wrapper bg-dark text-white rounded-4 my-8">
+          <pre>
+            <code>
+            &lt;div class="z-3 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-3&lt;/span&gt;&lt;/div&gt;
+
+            &lt;div class="z-2 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-2&lt;/span&gt;&lt;/div&gt;
+
+            &lt;div class="z-1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-1&lt;/span&gt;&lt;/div&gt;
+
+            &lt;div class="z-0 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-0&lt;/span&gt;&lt;/div&gt;
+
+            &lt;div class="z-n1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-n1&lt;/span&gt;&lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

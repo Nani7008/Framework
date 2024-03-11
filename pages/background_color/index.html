@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FRAMEWORK</title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+        />
+        
+    <!-- Favicon -->
+    <link rel="icon" href="../../public/favicon/favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="../../css/main.min.css" />
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="flex justify-between item-center">
+          <a href="#"
+            ><img
+              src="../../public/favicon/favicon_io/favicon-32x32.png"
+              alt="icon"
+          /></a>
+
+          <ul class="flex gap-x-16">
+            <label for="search">
+              <input
+                type="search"
+                placeholder="Type to search"
+                id="search"
+                class="input"
+              />
+            </label>
+          </ul>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <!-- Header ends -->
+    <section id="background">
+      <div class="container p">
+        <div class="wrapper">
+          <div class="side__bar">
+            <h4>Framework</h4>
+            <ul>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../../"> Buttons </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../inputs/"> Inputs </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../alerts/"> Alerts </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../headings/"> Headings </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../switchtoggles/"> Switch Checkbox </a>
+              </li>
+              <li>
+                <i class="bx bx-check"></i>
+                <a href="../cards/"> Cards </a>
+              </li>
+            </ul>
+          </div>
+          <div class="context">
+            <h4>Background color</h4>
+            <p>
+              Background utilities like <span>.bg-*</span> that generated from
+              our original $theme-colors Sass map don’t yet respond to <br />
+              color modes, however, any <span>.bg-*</span>-subtle utility will.
+              This will be resolved in v6.
+            </p>
+
+            <div class="background_colors">
+              <div class="p-3 mb-2 bg-primary text-white" >.bg-primary</div>
+
+              <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+
+              <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+
+              <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+
+              <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+
+              <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+
+              <div class="wrapper bg-dark text-white rounded-4 my-8">
+              <pre>
+                <code>
+        &lt;div class="p-3 mb-2 bg-primary text-white"&gt;.bg-primary&lt;/div&gt;
+
+        &lt;div class="p-3 mb-2 bg-secondary text-white"&gt;.bg-secondary&lt;/div&gt;
+
+        &lt;div class="p-3 mb-2 bg-success text-white"&gt;.bg-success&lt;/div&gt;
+
+        &lt;div class="p-3 mb-2 bg-danger text-white"&gt;.bg-danger&lt;/div&gt;
+
+        &lt;div class="p-3 mb-2 bg-warning text-dark"&gt;.bg-warning&lt;/div&gt;
+
+        &lt;div class="p-3 mb-2 bg-info text-dark"&gt;.bg-info&lt;/div&gt;
+                </code>
+            </pre>
+
+            </div>
+          </div>
+          <div class="Opacity">
+            <h4>
+                Opacity
+            </h4>
+            <p>
+                We use an RGB version of our --bs-success (with the value of 25, 135, 84) CSS variable and attached a second CSS <br>
+                variable, --bs-bg-opacity, for the alpha transparency (with a default value 1 thanks to a local CSS variable). That <br>
+                means anytime you use .bg-success now, your computed color value is rgba(25, 135, 84, 1). The local CSS variable <br>
+                inside each .bg-* class avoids inheritance issues so nested instances of the utilities don’t automatically have a <br>
+                 modified alpha transparency.
+            </p>
+            <div class="opacity_ex">
+    <div class="bg-success p-2 text-white">This is default success background</div>
+    <div class="bg-success p-2 text-white bg-opacity-75" style="opacity: 75%;">This is 75% opacity success background</div>
+    <div class="bg-success p-2 text-dark bg-opacity-50"style="opacity: 50%;">This is 50% opacity success background</div>
+    <div class="bg-success p-2 text-dark bg-opacity-25"style="opacity: 25%;">This is 25% opacity success background</div>
+    <div class="bg-success p-2 text-dark bg-opacity-10"style="opacity: 10%;">This is 10% opacity success background</div>
+</div>
+<pre>
+    <code>
+
+        <div class="wrapper bg-dark text-white rounded-4 my-8">
+        
+&lt;div class="bg-success p-2 text-white"&gt;This is default success background&lt;/div&gt;
+
+&lt;div class="bg-success p-2 text-white bg-opacity-75"&gt;This is 75% opacity success background&lt;/div&gt;
+
+&lt;div class="bg-success p-2 text-dark bg-opacity-50"&gt;This is 50% opacity success background&lt;/div&gt;
+
+&lt;div class="bg-success p-2 text-dark bg-opacity-25"&gt;This is 25% opacity success background&lt;/div&gt;
+
+&lt;div class="bg-success p-2 text-dark bg-opacity-10"&gt;This is 10% opacity success background&lt;/div&gt;
+
+    </code>
+</pre>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
