@@ -788,8 +788,8 @@ header nav {
 }
 
 .side__bar {
-  min-width: 160px;
-  height: 250px;
+  min-width: 200px;
+  height: 550px;
   background-color: rgb(211, 207, 207);
   display: flex;
   flex-direction: column;
@@ -802,10 +802,10 @@ header nav {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .side__bar h4 {
-  text-align: center;
+  padding-top: 20px;
 }
 .side__bar li {
-  padding-top: 12px;
+  padding-top: 22px;
 }
 .side__bar li:hover {
   color: rgb(91, 91, 219);
@@ -821,6 +821,7 @@ header nav {
 }
 .side__bar li a:hover {
   text-decoration: underline;
+  background-color: rgb(159, 143, 219);
 }
 
 .btn {
@@ -1415,7 +1416,6 @@ header nav {
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: 20px;
   height: 200px;
 }
 .card-horizontal .card-horizontal-image {
@@ -1456,7 +1456,6 @@ header nav {
   border: 1px solid #ced4da;
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 20px;
   height: 200px;
 }
 .header-card .header-card-content h2 {

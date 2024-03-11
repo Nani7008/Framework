@@ -94,31 +94,49 @@
               </ul>
           </div>
           <div class="context">
-          <h4>
-            Z-index
-          </h4>
-          <p>
-            We call these “low-level” z-index utilities because of their default values of -1 through 3, which we use for the <br>
-             layout of overlapping components. High-level z-index values are used for overlay components like modals and <br>
-              tooltips.
-          </p>
-          <img src="../../assets/images/z-index.png" alt="z-index">
-          <div class="wrapper bg-dark text-white rounded-4 my-8">
-          <pre>
-            <code>
-            &lt;div class="z-3 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-3&lt;/span&gt;&lt;/div&gt;
+            <h4>Ratio</h4>
+            <br />
 
-            &lt;div class="z-2 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-2&lt;/span&gt;&lt;/div&gt;
+            <p>
+              Use generated pseudo elements to make an element maintain the
+              aspect ratio of <br />
+              your choosing. Perfect for responsively handling video or
+              slideshow embeds based <br />
+              on the width of the parent.
+            </p>
+            <img
+              src="../../assets/images/aspect_ratio.png"
+              alt="ratio"
+              width="900px"
+            />
 
-            &lt;div class="z-1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-1&lt;/span&gt;&lt;/div&gt;
+            <div class="wrapper bg-dark text-white rounded-4 my-8">
+              <pre>
+          <code>            
+                &lt;div class="ratio ratio-1x1"&gt;
+                  &lt;div&gt;1x1&lt;/div&gt;
+                &lt;/div&gt;
 
-            &lt;div class="z-0 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-0&lt;/span&gt;&lt;/div&gt;
+                &lt;div class="ratio ratio-4x3"&gt;
+                  &lt;div&gt;4x3&lt;/div&gt;
+                &lt;/div&gt;
 
-            &lt;div class="z-n1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-n1&lt;/span&gt;&lt;/div&gt;
-            </code>
-        </pre>
-    </div>
-        </div>
+                &lt;div class="ratio ratio-16x9"&gt;
+                  &lt;div&gt;16x9&lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="ratio ratio-21x9"&gt;
+                  &lt;div&gt;21x9&lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class="ratio" style="--bs-aspect-ratio: 50%;"&gt;
+                 &lt;div&gt;2x1&lt;/div&gt;
+                &lt;/div&gt;                                     
+                       
+          </code>
+          </pre>
+            </div>
+          </div>
         </div>
       </div>
     </section>
