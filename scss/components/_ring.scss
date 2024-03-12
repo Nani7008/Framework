@@ -1,0 +1,82 @@
+$focusColor: rgba(0, 123, 255, 0.5);
+$focusWidth: 0.2rem; 
+$borderRadius: 0.5rem; 
+
+
+@mixin focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 $focusWidth $focusColor;
+}
+
+
+.custom-link {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem; 
+  text-decoration: none;
+  border: none;
+  border-radius: $borderRadius;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+ 
+  &:focus {
+    @include focus-ring;
+  }
+
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+}
+
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$tertiary-color: #ffc107;
+$quaternary-color: #28a745;
+
+
+.link {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .link1 {
+    color: $primary-color;
+  }
+  
+  .link2 {
+    color: $secondary-color;
+  }
+  
+  .link3 {
+    color: $tertiary-color;
+  }
+  
+  .link4 {
+    color: $quaternary-color;
+  }
+  
+  .link:focus {
+    outline: none;
+  }
+  
+  .link1:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .link2:focus {
+    box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.5);
+  }
+  
+  .link3:focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+  }
+  
+  .link4:focus {
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
